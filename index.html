@@ -10,11 +10,11 @@
 </head>
 <body>
   <header>
-    <div class="row site-heading">
-      <h1 class="page-title">Laura Inman</h1>
-      <h2>Portfolio</h2>
+    <div class="heading">
+      <h1>Laura Inman</h1>
+      <h4>Web Developer</h4>
     </div>
-    <nav class="site-nav">
+    <nav>
       <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href="#work">Work</a></li>
@@ -26,14 +26,16 @@
   <main>
     <!-- About Me Section -->
     <section class="row about">
-      <h2>Laura Inman</h2>
+      <h2 class="section-heading" id="about">About Me</h2>
       <!-- <img src="" alt="pictue of me" /> -->
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis debitis minima temporibus iusto enim est omnis nisi ad, dicta, modi animi dignissimos esse deserunt, harum nihil repellat veniam culpa facere?</p>
     </section>
 
     <!-- Work Section -->
-    <section class="row justify-center portfolio">
-      <div class="portfolio-column top-item">
+    <section class="row portfolio">
+      <h2 class="section-heading" id="work">Work</h2>
+      <div class="portfolio-content">
+              <div class="portfolio-column top-item">
         <figure class="portfolio-item">
           <div class="portfolio-header">
             <h3>Snippet Cheatsheet</h3>
@@ -80,15 +82,24 @@
       </div>
     </section>
 
+      </div>
+
     <!-- Contact Section -->
     <section class="row contact">
-      <h2>Contact Me</h2>
+      <h2 class="section-heading" id="contact">Contact Me</h2>
       <ul>
         <li><a href="#">phone</a></li>
         <li><a href="#">email</a></li>
         <li><a href="#">github</a></li>
       </ul>
-    </section>
+    <!-- </section>
+    <aside>
+      <ul>
+        <li id="about">About Me</li>
+        <li id="work">Work</li>
+        <li id="contact">Cont</li>
+      </ul>
+    </aside> -->
   </main>
   <footer><p>&copy;2022 LEI Web Developer</p></footer>
 </body>

@@ -61,16 +61,84 @@ p {
 }
 
 /* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  padding: 2rem 1.5rem;
+  margin: 0 auto;
+  background: rgb(246, 245, 240);
+  background: linear-gradient(30deg, rgba(246, 245, 240, 1) 29%, rgba(126, 54, 128, 0.6) 46%, rgba(126, 54, 128, 0.9) 64%, rgba(126, 54, 128, 1) 80%);
+
+}
+
+header .heading h1 {
+  font-size: 4.5rem;
+}
+
+/* Nav Styles */
+header nav li {
+  display: inline;
+  padding: 2rem;
+}
+
+header nav li a {
+  color: var(--cream);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  color: var(--indigo);
+}
+
 
 /* Main Styles */
+main {
+  width: 94%;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
 
 /* Footer Styles */
 
 /* Layout Styles */
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 3rem;
+
+
+
+}
+.portfolio-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
 
 /* Portfolio Item Styles */
+
+
+/* Portfolio */
+.section-heading {
+  padding: 0 5rem 0 0;
+}
+
+.row h2 {
+  font-size: 2rem;
+}
+
 /* Top Portfolio Item */
 
 /* Portfolio Items */
 
+.contact li{
+
+    display: inline;
+    padding: 0 5rem;
+  
+} 
 /* Media */
